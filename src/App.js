@@ -1,5 +1,5 @@
 import Lottie from "lottie-react";
-import anim1 from "./animations/AE.json";
+import anim1 from "./AE.json";
 import './App.css';
 
 function App() {
