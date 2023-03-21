@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import Lottie from "lottie-react";
+import anim1 from "./animations/AE.json";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Lottie animationData={anim1} loop={true}  height={800} width={1000} style={{
+      top: "10px",
+      left: "10px",
+      position: "fixed",
+    }}/>;
     </div>
   );
 }
